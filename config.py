@@ -1,10 +1,10 @@
 adminId = 
-groupId = -1001353798079
-groupId2 = -1001371143743
+groupId = 
+groupId2 = 
 testGroupId = 
 # session_name_bot = "sessions/bot"
 
-BOT_TOKEN = "6835843318:AAH8UEQVJuO5m43zEgwzzeSMXb-9PnE1k54"
+BOT_TOKEN = ""
 
 OPENAI_API_KEY = ""
 
