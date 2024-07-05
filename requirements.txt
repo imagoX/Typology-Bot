@@ -1,0 +1,7 @@
+openai
+python-telegram-bot
+pytube
+pydub
+ffmpeg
+yt-dlp
+dotenv

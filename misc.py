@@ -1,12 +1,10 @@
-import logging
+import os
+import openai
+from config import BOT_TOKEN, OPENAI_API_KEY, adminId, groupId, groupId2, testGroupId
 
-# Logging
-from aiogram import Bot, Dispatcher, types
-
-from config import BOT_TOKEN
-
-logging.basicConfig(level=logging.INFO)
-
-# Bot configs
-bot = Bot(token=BOT_TOKEN, parse_mode=types.ParseMode.HTML)
-dp = Dispatcher(bot)
+TELEGRAM_BOT_TOKEN = os.getenv("BOT_TOKEN", BOT_TOKEN)
+OPENAI_API = os.getenv("OPENAI_API_KEY", OPENAI_API_KEY)
+ADMIN_ID = os.getenv("adminId", adminId)
+GROUP_ID = os.getenv("groupId", groupId)
+GROUP_ID2 = os.getenv("groupId2", groupId2)
+TEST_GROUP_ID = os.getenv("testGroupId", testGroupId)
