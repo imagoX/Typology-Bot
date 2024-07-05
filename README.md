@@ -10,4 +10,4 @@ pytube,
 pydub,
 ffmpeg,
 yt-dlp,
-dotenv
+python-dotenv
